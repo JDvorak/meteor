@@ -1,0 +1,28 @@
+/* CSS declarations go here */
+
+
+
+.cell {
+  letter-spacing: -1em;
+  line-height: 1.25em;
+  position: absolute;
+  border-left: 1px dashed #333;
+  border-bottom: 1px dashed #333;
+  width: 1em;
+  height: 1em;
+}
+
+.gameWindow {
+  border-right: 1px solid #333;
+  border-top: 1px solid #333;
+  position: fixed;
+  top: 4em;
+  left: 4em;
+  width: 25em;
+  height: 25em;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
